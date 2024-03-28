@@ -40,6 +40,15 @@ To run this project, you will need to add the following environment variables to
 ```
 
 
+## How to load the data
+
+```bash
+  cd f1_graph
+  python load_f1_data.py
+```
+
+Then review that the data is available in Neo4j browser or bloom dashboard for querying, have fun!
+
 ## Appendix
 
 - https://neo4j-contrib.github.io/py2neo/ - Py2neo is a client library and toolkit for working with Neo4j from within Python applications. I have used this library for load bulk data in order to have a big database for performing queries. Note: this one is currently deprecated by the developers.
