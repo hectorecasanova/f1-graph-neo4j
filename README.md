@@ -23,7 +23,7 @@ Relationships:
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`ANEO4J_URI`
+`NEO4J_URI`
 `NEO4J_USERNAME`
 `NEO4J_PASSWORD`
 ## Pre-requisites
